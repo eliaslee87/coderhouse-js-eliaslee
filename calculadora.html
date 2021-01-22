@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>tuKetoMenu | Calculadora</title>
+</head>
+<header class="site-header">
+<div class="container-fluid text-center mb-3">
+    <a class="navbar-brand" href="index.html"><img src="./logos/logoketo.svg" alt="tuKetoMenu logoketo"></a>
+</div>    
+<nav class="navbar navbar-expand-lg navbar-light navbar-keto">
+    <div class="container-fluid justify-content-end">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="guiainicial.html">Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="calculadora.html">Calculadora</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mealplanner.html">Plan de Comidas</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+
+<body>
+    <div class="container-fluid calc_Intro px-10">
+        <h1 class="pb-4">Definiendo tus metas Macro</h1>
+        <h2 class="pb-3">¿Qué son las metas Macro?</h2>
+        <p class="pb-3 fs-5">
+            ¿Has escuchado hablar de «macros» antes? ¡Muchos de nosotros no! Pero no te preocupes, son fáciles de entender. Los macronutrientes (macros) incluyen proteínas, grasas y carbohidratos, que se contrastan con vitaminas y minerales los cuales son micronutrientes. En términos generales, una dieta cetogénica es una dieta baja en carbohidratos y alta en grasas.
+            <br><br>
+            ¿Qué tan bajo es «bajo» y qué tan alto es «alto»?
+            ¿Y qué pasa con la proteína?
+            Configurar los macros correctos en una dieta cetogénica es importante para garantizar
+            Que recibas todos los nutrientes que necesitas.
+            Te sientes satisfecho y nutrido.
+            Puedes manejar el período de adaptación y tus actividades cotidianas generales.
+        </p>
+        <h2 class="pb-3">¿Las calorías importan en la dieta ceto?</h2>
+        <p class="pb-3 fs-5">
+            Si… y no.<br>
+            Hacer seguimiento a los macronutrientes es una forma mucho más precisa de «contar calorías». Cada gramo de proteína y carbohidratos equivale a 4 calorías, cada gramo de grasa a 9 calorías, por lo tanto, al hacer seguimiento a los macros, estás de hecho haciendo seguimiento a las calorías. Simplemente multiplica los macros que tienes como objetivo y súmalos todos para obtener las calorías totales.
+            <br><br>
+            Es por eso que necesitamos que ingreses información precisa para poder crear un perfil de nutricion keto para tí.
+        </p>
+    </div>
+    
+    <div class="container-fluid calc_Formulario px-10 pt-5">
+        <form id="calcForm" action="#" method="post">
+
+        <div class="row">
+
+            <div class="col-12 pb-2">
+                <h6>Genero</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Genero" id="mujerOpt" value="Mujer" checked>
+                    <label class="form-check-label" for="mujerOpt">Mujer</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Genero" id="hombreOpt" value="Hombre">
+                    <label class="form-check-label" for="hombreOpt">Hombre</label>
+                </div>
+            </div>
+
+            <div class="col-12 pb-2">
+                <h6>Edad</h6>
+                <div class="row g-2">
+                    <div class="col">
+                        <input type="number" class="form-control" id="edad" placeholder="Ingrese su Edad" required>
+                    </div>
+                </div>
+                <h6>Peso y Altura</h6>
+                <div class="row g-2">
+                    <div class="col">
+                        <input type="number" class="form-control" id="peso" placeholder="Ingrese su peso en Kg" required>
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control" id="altura" placeholder="Ingrese su altura en Cm" required>
+                    </div>
+                </div>                    
+            </div>
+
+            <div class="col-12 pb-2">
+                <h6>Porcentaje de Grasa Corporal</h6>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="GrasaCorp" id="gc1" value=".07" checked>
+                            <label class="form-check-label" for="gc1">5% - 9%</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="GrasaCorp" id="gc2" value=".12">
+                            <label class="form-check-label" for=".12">10% - 14%</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="GrasaCorp" id="gc3" value=".17">
+                            <label class="form-check-label" for=".17">15% - 19%</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="GrasaCorp" id="gc4" value=".22">
+                            <label class="form-check-label" for="gc4">20% - 24%</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="GrasaCorp" id=".27" value=".27">
+                            <label class="form-check-label" for="gc5">25% - 29%</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="GrasaCorp" id="gc6" value=".32">
+                            <label class="form-check-label" for="gc6">30% - 34%</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="GrasaCorp" id="gc7" value=".37">
+                            <label class="form-check-label" for="gc7">35% - 39%</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="GrasaCorp" id="gc8" value=".40">
+                            <label class="form-check-label" for="gc8">40% y mayor</label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 pb-2">
+                <h6>Nivel de Actividad</h6>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="ActLvl" id="actlvl1" value="1" checked>
+                            <label class="form-check-label" for="actlvl1">Sedentario</label>
+                            <p>Poca o nula actividad diaria. Generalmente trabajos de escritorio</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="ActLvl" id="actlvl2" value="2">
+                            <label class="form-check-label" for="actlvl2">Ligeramente Activo</label>
+                            <p>Caminatas de menos de 20 minutos por día. Generalmente paseos ligeros luego del almuerzo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="ActLvl" id="actlvl3" value="3" >
+                            <label class="form-check-label" for="actlvl3">Moderadamente Activo</label>
+                            <p>Activo en el día, Ejercicios programados. Ejemplo: Moverse en bicicleta al trabajo, ir al gimnasio un par de veces a la semana, etc.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="ActLvl" id="actlvl4" value="4">
+                            <label class="form-check-label" for="actlvl4">Muy Activo</label>
+                            <p>Muy activo durante el día, Entrenamiento intenso. Ejemplo: trabajos de la construcción, en plantas industriales, etc. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 pb-2">
+                <h6>Porcentaje de Perdida/Ganancia</h6>
+                <div class="form-group pb-2">
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="Objetivo" id="objPerder" value="1" checked>
+                        <label class="form-check-label" for="objPerder">Perder Peso</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="Objetivo" id="objMant" value="2">
+                        <label class="form-check-label" for="objMant">Mantener Peso</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="Objetivo" id="objGanar" value="3">
+                        <label class="form-check-label" for="objGanar">Ganar Musculatura</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col pb-3">
+                        <input type="number" class="form-control" id="percentObj" placeholder="Ingrese los % de su meta" required>
+                    </div>                        
+                    <p class="fs-7">Es recomendable no superar los 30% de deficit calorico. Tampoco es recomendable superar los 15% de exceso calorico. Si se superan estos niveles pueden conllevar resultados negativos.</p>
+                </div>
+            </div>
+
+            <div class="col-12 pb-2">
+                <h6>Carbohidratos y Proteinas</h6>
+                <div class="row">
+                    <div class="col">
+                        <input type="number" class="form-control" id="userCarbs" placeholder="g de Carbohidratos" required>
+                        <p class="pt-2">¿Cuantos carbohidratos desea consumir?</p>
+                        <p class="fs-7">En una dieta cetogenica, es muy recomendable mantener el consumo de carbohidratos por debajo de los 5% del total de calorias diarias necesarias. En promedio suele ser alrededor de 20g netos totales por dia.</p>
+                    </div>
+                    <div class="col">
+                        <input type="number" step= ".01" class="form-control" id="userProts" placeholder="g de Proteinas" required>
+                        <p class="pt-2">¿Cuantas proteinas desea consumir?</p>
+                        <p class="fs-7">Si es mayormente sedentario, recomendamos un consumo entre 0.6g y 0.8g de proteina por cada libra de masa corporal magra (/lbsMC).<br> Si es medianamente activo, entre 0.8g y 1.0g /lbsMC.<br> Si su objetivo es ganar masa muscular, recomendamos consumir entre 1.0g y 1.2g /lbsMC. No es recomendable superar estos valores diarios</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary" id="btn-calcForm">Calcular Macros</button>
+            </div>
+            <div class="col-3">
+                <button type="reset" class="btn btn-secondary">Reestablecer</button>
+            </div>
+        </div>
+           
+        </form>
+    </div>
+
+    <div class="resultCalc">
+        
+    </div>
+
+
+
+    <!-- Scripts -->
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+  
+  <footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <p>Copyright © 2020 tuKetoMenu.com.<br> All Rights Reserved. Powered by CoderHouse.</p>
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-end">
+                <h6>Nosotros en las Redes</h6>
+                <div class="d-flex justify-content-center justify-content-md-end">
+                    <img src="./logos/facebook.svg" alt="facebook">
+                    <img src="./logos/instagram.svg" alt="instagram">
+                    <img src="./logos/twitter.svg" alt="twiiter">
+                    <img src="./logos/youtube.svg" alt="youtube">
+                    <img src="./logos/pinterest.svg" alt="pinterest">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

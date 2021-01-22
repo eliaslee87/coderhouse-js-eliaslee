@@ -1,0 +1,271 @@
+[
+    {
+      "id":1,
+      "imagen":"./images/recipes/corned-beef-cabbage.jpg",
+      "nombre":"Carne de Conserva con Repollo Keto",
+      "ingredientes":[
+        "Carne en Conserva",
+        "Cebolla",
+        "Apio",
+        "Repollo",
+        "Zanahoria",
+        "Mostaza",
+        "Mayonesa"
+      ],
+      "comida":"Principal",
+      "tiempo":300,
+      "detalle":"Esta receta de carne de conserva con repollo es menú infaltable para el día de San Patricio. Esta versión cetogénica es tan tierna y sabrosa que queremos tenerla más de una vez al año."
+    },
+    {
+      "id":2,
+      "imagen":"./images/recipes/beef-stew.jpg",
+      "nombre":"Estofado de Carne Keto",
+      "ingredientes":[
+        "Carne",
+        "Aceite de Oliva",
+        "Hongos Portobellos",
+        "Cebolla",
+        "Zanahoria",
+        "Apio",
+        "Ajo",
+        "Pure de Tomate",
+        "Romero",
+        "Tomillo"
+      ],
+      "comida":"Principal",
+      "tiempo":120,
+      "detalle":"Hacer que este plato sea compatible con la dieta Keto solo tomó un par de cambios simples. Sigue siendo sedoso y profundamente reconfortante. Puede hacer que cualquier noche de invierno sea soportable y acogedora."
+    },
+    {
+      "id":3,
+      "imagen":"./images/recipes/stuffed-cabbage.jpg",
+      "nombre":"Repollo Relleno Keto",
+      "ingredientes":["Tomate","Repollo","Carne","Cerdo","Coliflor","Cebolla"],
+      "comida":"Principal",
+      "tiempo":120,
+      "detalle":"Esta versión baja en carbohidratos de repollo relleno es tan satisfactoria como la original. El secreto: arroz de coliflor. El arroz de coliflor casero es extremadamente fácil de hacer, pero también puede comprarla prefabricada."
+    },
+    {
+      "id":4,
+      "imagen":"./images/recipes/mac-cheese.jpg",
+      "nombre":"Mac & Cheese Keto",
+      "ingredientes":[
+        "Manteca",
+        "Coliflor",
+        "Crema de Leche",
+        "Cheddar",
+        "Muzzarela",
+        "Cerdo",
+        "Parmesano",
+        "Aceite de Oliva"
+      ],
+      "comida":"Principal",
+      "tiempo":100,
+      "detalle":"Esta versión baja en carbohidratos de repollo relleno es tan satisfactoria como la original. El secreto: arroz de coliflor. El arroz de coliflor casero es extremadamente fácil de hacer, pero también puede comprarla prefabricada."
+    },
+    {
+      "id":5,
+      "imagen":"./images/recipes/fried-chicken.jpg",
+      "nombre":"Pollo Frito Keto",
+      "ingredientes":[
+        "Pollo",
+        "Huevo",
+        "Crema de Leche",
+        "Harina de Almendra",
+        "Parmesano",
+        "Mayonesa",
+        "Chicharron de Cerdo"
+      ],
+      "comida":"Principal",
+      "tiempo":100,
+      "detalle":"Para hacer pollo frito Keto Friendly reemplazamos la harina por chicharrones de cerdo y parmesano. La harina de almendras también ayuda a adherir todo para obtener un pollo perfectamente crujiente. También horneamos este pollo para omitir todo el aceite innecesario, pero aún así juraría que esta pechuga de pollo estaba frita. Siéntase libre de usar muslos o patas también, ¡solo tenga en cuenta que el tiempo de horneado será más largo!"
+    },
+    {
+      "id":6,
+      "imagen":"./images/recipes/broccoli-salad.jpg",
+      "nombre":"Ensalada de Broccoli",
+      "ingredientes":[
+        "Brocolli",
+        "Cheddar",
+        "Cebolla",
+        "Almendras",
+        "Panceta",
+        "Ciboullete",
+        "Mayonesa",
+        "Mostaza"
+      ],
+      "comida":"Principal",
+      "tiempo":60,
+      "detalle":"Esta sencilla ensalada de brócoli es la receta perfecta comidas preparadas. Además de ser completo y saludable, creemos que es aún mejor al día siguiente. Si es vegetariano, cambie el tocino por un aguacate cortado en cubitos - la cremosidad del aguacate es un gran complemento para el brócoli."
+    },
+    {
+      "id":7,
+      "imagen":"./images/recipes/meatballs.png",
+      "nombre":"Albondigas Keto",
+      "ingredientes":[
+        "Carne",
+        "Ajo",
+        "Mozzarella",
+        "Parmesano",
+        "Huevo",
+        "Ciboullete",
+        "Cebolla",
+        "Tomate",
+        "Oregano"
+      ],
+      "comida":"Principal",
+      "tiempo":70,
+      "detalle":"El queso extra mantiene firmes estas tiernas albóndigas perfectamente sin ningún tipo de harina. ¡Se tarda una brisa en prepararlas convirtiendose en una cena perfecta entre para todos, dejando mucho tiempo hasta para preparar una tarta de queso Keto de postre! Usamos carne molida vacuna en estas albóndigas, pero también funcionan bien con otros tipos de carne molida. Tanto el pavo molido como el cerdo molido son excelentes o una combinación de carne de cerdo y carne de vaca molida hace que las albóndigas sean excepcionales. Para hacerlos más tiernos, manipúlelos lo menos posible. Al igual que un pastel, cuanto más mezcle y mezcle las albóndigas, ¡más duras se vuelven! Si le resulta difícil formarlos debido a la falta de migas de pan, humedezca sus manos ligeramente para evitar que se peguen a sus manos."
+    },
+    {
+      "id":8,
+      "imagen":"./images/recipes/pork-chops.jpg",
+      "nombre":"Chuletas de Cerdo",
+      "ingredientes":[
+        "Cerdo",
+        "Romero",
+        "Ajo",
+        "Manteca",
+        "Aceite de Oliva"
+      ],
+      "comida":"Principal",
+      "tiempo":40,
+      "detalle":"Creemos que las chuletas de cerdo tienen una mala reputación. Tal vez tenga que ver con todas esas chuletas secas y recocidas que nos sirvieron de niños, pero no tiene por qué ser así. Las chuletas de cerdo tienen el potencial de ser jugosas, tiernas y sabrosas, ¡de verdad! Este método de horneado asegurará que su cerdo tenga una corteza deliciosa y un interior perfectamente cocido. Simplemente siga estas simples reglas y prepárese para reconsiderar todo lo que sabe sobre este corte ideal para las noches de la semana."
+    },
+    {
+      "id":9,
+      "imagen":"./images/recipes/cheesy-bacon-ranch-chicken.jpg",
+      "nombre":"Pollo Ranchero con Panceta y Queso",
+      "ingredientes":[
+        "Panceta",
+        "Pollo",
+        "Salsa Ranchera",
+        "Mozzarella",
+        "Ciboullete"
+      ],
+      "comida":"Principal",
+      "tiempo":45,
+      "detalle":"Si estas comenzando una dieta cetogénica, estas pechugas de pollo con queso son la cena perfecta, rápida y fácil entre semana. El condimento del rancho es opcional,pero ¿cómo resistirse, no?"
+    },
+    {
+      "id":10,
+      "imagen":"./images/recipes/bacon-sushi.jpg",
+      "nombre":"Pollo Ranchero con Panceta y Queso",
+      "ingredientes":[
+        "Panceta",
+        "Pepino",
+        "Zanahoria",
+        "Palta",
+        "Queso Crema"
+      ],
+      "comida":"Principal",
+      "tiempo":40,
+      "detalle":"Estar en una dieta cetogénica significa que tienes muchas menos opciones para picar. ¡No temas! Estos pequeños satisfarán todos tus antojos de bocadillos: son salados, cremosos y crujientes, pero no te pesarán. Optamos por zanahorias, pepinos y aguacate para nuestro relleno, pero las opciones son infinitas. ¡Cámbielo con pimientos, apio, rábanos o cualquier otra cosa que tenga a mano!"
+    },
+    {
+      "id":11,
+      "imagen":"./images/recipes/taco-casserole.jpg",
+      "nombre":"Cazuela de Taco",
+      "ingredientes":[
+        "Panceta",
+        "Pepino",
+        "Zanahoria",
+        "Palta",
+        "Queso Crema"
+      ],
+      "comida":"Principal",
+      "tiempo":40,
+      "detalle":"¡Amigos keto!, conozcan a su nueva cena favorita entre semana. Es súper fácil, extremadamente abundante y tiene un pequeño toque del jalapeño. Empaquetamos todos sus sabores Tex-Mex favoritos en esta cazuela deliciosa e infinitamente preparada. Haga un lote de chips de tortilla ceto y no necesitará ningún utensilio, simplemente sumérjalo y a comer!."
+    },
+    {
+      "id":12,
+      "imagen":"./images/recipes/chicken-parmesan.jpg",
+      "nombre":"Pollo al Parmesano",
+      "ingredientes":[
+        "Pollo",
+        "Harina de Almendra",
+        "Huevo",
+        "Ajo",
+        "Cebolla",
+        "Oregano",
+        "Parmesano"
+      ],
+      "comida":"Principal",
+      "tiempo":70,
+      "detalle":"Nadie puede negar un buen pollo al parmesano. Esta versión, cubierta con harina de almendras y MUCHO parmesano, es cetogénica y completamente irresistible."
+    },
+    {
+      "id":13,
+      "imagen":"./images/recipes/meatloaf.jpg",
+      "nombre":"Pan de Carne Keto",
+      "ingredientes":[
+        "Apio",
+        "Harina de Almendra",
+        "Carne",
+        "Ajo",
+        "Cebolla",
+        "Oregano",
+        "Cheddar",
+        "Parmesano",
+        "Huevo",
+        "Aceite de Oliva"
+      ],
+      "comida":"Principal",
+      "tiempo":90,
+      "detalle":"Esta no solo es una cena cetogénica, es una renovación muy necesaria. A todos, incluidos aquellos que no le temen a los carbohidratos, les encantará esta receta de pastel de carne envuelto en tocino. El tocino lo hace increíblemente sabroso, la harina de almendras actúa como el aglutinante perfecto, ¿y la salsa de soja? Contiene un toque de umami que nunca supiste que necesitabas. Confíe en nosotros, no extrañará el pan rallado ni el ketchup."
+    },
+    {
+      "id":14,
+      "imagen":"./images/recipes/garlicky-lemon-mahi-mahi.jpg",
+      "nombre":"Mahi-Mahi al Ajo y Limón",
+      "ingredientes":[
+        "Pescado",
+        "Manteca",
+        "Esparrago",
+        "Ajo",
+        "Limon",
+        "Ciboullete",
+        "Aceite de Oliva"
+      ],
+      "comida":"Principal",
+      "tiempo":40,
+      "detalle":"El mahi-mahi tiene una textura firme y funciona bien para hornear, dorar o asar. El Acuario de la Bahía de Monterey lo clasifica como una buena opción cuando se considera el impacto ambiental. También es un pescado de mercurio moderado y es una buena fuente de proteínas."
+    },
+    {
+      "id":15,
+      "imagen":"./images/recipes/taco-cups.png",
+      "nombre":"Keto Taco Cups",
+      "ingredientes":[
+        "Cheddar",
+        "Cebolla",
+        "Carne",
+        "Ajo",
+        "Queso Crema",
+        "Palta",
+        "Cilantro",
+        "Tomate",
+        "Aceite de Oliva"
+      ],
+      "comida":"Principal",
+      "tiempo":40,
+      "detalle":"Tapas de taco hechas de queso: el truco cetogénico definitivo. Básicamente estamos hablando de frico, un método de cocción italiano en el que el queso se cuece en una sartén hasta que esté ligeramente crujiente pero maleable. Aquí estamos horneando pequeños montículos de queso cheddar y dándoles forma de tazas de mano. Estos no son tacos auténticos o tradicionales de ninguna manera. Pero, si eres fanático de los tacos de carne molida Tex-Mex y estás tratando de seguir una dieta baja en carbohidratos, estas son una opción divertida."
+    },
+    {
+      "id":16,
+      "imagen":"./images/recipes/philly-cheesesteak-lettuce-wraps.jpg",
+      "nombre":"Queso Filadelfia Envueltos en Lechuga",
+      "ingredientes":[
+        "Queso Filadelfia",
+        "Morron",
+        "Oregano",
+        "Carne",
+        "Provolone",
+        "Lechuga",
+        "Perejil",
+        "Aceite de Oliva"
+      ],
+      "comida":"Principal",
+      "tiempo":40,
+      "detalle":"No te perderás el hoagie en estas envolturas de lechuga Philly Cheesesteak bajas en carbohidratos. Sí, están hechos con provolone, NO con Cheez Whiz. Y antes de que te enojes, no, no son auténticos de ninguna manera. ¡Seremos los primeros en admitirlo!"
+    }
+  ]

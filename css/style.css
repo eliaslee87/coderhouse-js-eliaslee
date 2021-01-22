@@ -1,0 +1,136 @@
+h6 {
+    margin: .5rem 0;
+    font-weight: 600;
+}
+
+/* Div - Secciones */
+
+.site-header {
+    background: url(../images/bgimage00.png);
+    background-size: fill;
+    background-position-x: center;
+    background-color: rgb(228, 228, 217);
+    padding: 1rem 0rem 0rem 0rem;
+}
+.navbar-keto{
+    border-top: solid rgb(176, 176, 176) 1px;
+    border-bottom: solid rgb(176, 176, 176) 1px;
+}
+.indexSection_Welcome{
+    height: auto;
+    background: url(../images/bgimage01.jpg);
+    background-size: cover;
+    background-position-x: center;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+}
+.indexSection_Calc {
+    height: auto;
+    background: url(../images/bgimage03.jpg);
+    background-size: cover;
+    background-position-x: center;
+    color: rgb(0, 0, 0);
+}
+.indexSection_Mealplanner {
+    height: auto;
+    background-color: rgb(205, 205, 205);
+    background: url(../images/bgimage04.jpg);
+    background-size: cover;
+    background-position-x: center;
+    color: rgb(0, 0, 0);
+}
+.about_Intro{
+    height: auto;
+    background: url(../images/bgimage03.jpg);
+    background-size: cover;
+    background-position-x: center;
+    color: black;
+}
+.calc_Intro{
+    height: auto;
+    background: url(../images/bgimage02.jpg);
+    background-size: cover;
+    background-position-x: center;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+}
+.calc_Formulario{
+    height: auto;
+    background: url(../images/bgimage05.png);
+    background-size: cover;
+    background-position-x: center;
+}
+.meal_Intro{
+    height: auto;
+    background: url(../images/bgimage06.jpg);
+    background-size: cover;
+    background-position-x: center;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+}
+.meal_Select{
+    height: auto;
+    background: url(../images/bgimage05.png);
+    background-size: cover;
+    background-position-x: center;
+}
+.meal_Plan{
+    height: auto;
+    background: url(../images/bgimage03.jpg);
+    background-size: cover;
+    background-position-x: center;
+    color: black;
+}
+
+
+footer {
+    padding: 1rem .75rem;
+    color: honeydew;
+    background-color: rgb(101, 101, 101);
+}
+
+
+.resultCalc {
+    background: url(../images/bgimage00.png);
+    background-size: fill;
+    background-position-x: center;
+    background-color: rgb(228, 228, 217);
+}
+
+/* Estilos Custom*/
+
+.px-10{
+    padding: 2rem .75rem;
+}
+.fs-7{
+    font-size: small;
+}
+.navbar-brand img{
+    width: 8rem;
+}
+.nav-item{
+    margin: 0 2rem;
+}
+footer img, footer iframe {
+    margin: .4rem .4rem;
+    width: 1.5rem;
+    filter: invert(100%) sepia(0%) saturate(3557%) hue-rotate(52deg) brightness(123%) contrast(88%);
+}
+
+
+/* Responsive */
+
+@media (min-width: 1024px) {
+
+.navbar-brand img{
+    width: 12rem;}
+.navbar-keto {
+    padding: 0;}
+.px-10{
+    padding: 5rem 16rem;
+}
+footer {
+    padding: 2rem 8rem;
+}
+
+}
